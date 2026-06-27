@@ -1,5 +1,9 @@
 # rulespec-us-sc
 
+This repository is archived. Its canonical content now lives in
+[`TheAxiomFoundation/rulespec-us`](https://github.com/TheAxiomFoundation/rulespec-us)
+under `us-sc/`; keep all future RuleSpec work there.
+
 South Carolina RuleSpec source registry and policy metadata.
 
 ## Contents
@@ -12,4 +16,4 @@ South Carolina RuleSpec source registry and policy metadata.
 
 Use RuleSpec YAML under `statutes/`, `regulations/`, or `policies/` for encoded rules. Keep source text with matching `.meta.yaml` files that record provenance and relations. Large XML or source payloads belong in object storage, with only registry or manifest metadata in Git.
 
-Jurisdiction-specific materials belong in this repo. Shared federal materials belong in `rulespec-us`.
+In the canonical monorepo, South Carolina-administered materials live under `us-sc/`; shared federal materials live at the country root.
